@@ -40,7 +40,7 @@ namespace SeleniumLiveDemo
                 IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
                 SignInButton.Click();
                 IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-                EmailField.SendKeys("martinazboeva@abv.bg");
+                EmailField.SendKeys("qa.registration@example.com");
                 IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
                 CreateAccountButton.Click();
                 IWebElement FirstNameField = _wait.Until<IWebElement>(d => d.FindElement(By.Id("customer_firstname")));
@@ -73,12 +73,12 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
             IWebElement userNameField = _wait.Until<IWebElement>(d => d.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[4]/input")));
             IWebElement CreatedEmail = _driver.FindElement(By.CssSelector("#email"));
-            Assert.AreEqual("martinazboeva@abv.bg", CreatedEmail.GetAttribute("value"));
+            Assert.AreEqual("qa.registration@example.com", CreatedEmail.GetAttribute("value"));
 
 
 
@@ -92,7 +92,7 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
             IWebElement FirstNameField = _wait.Until<IWebElement>(d => d.FindElement(By.Id("customer_firstname"))); 
@@ -131,7 +131,7 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
    
@@ -148,7 +148,7 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
             IWebElement FirstNameField = _wait.Until<IWebElement>(d => d.FindElement(By.Id("customer_firstname")));
@@ -171,7 +171,7 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
             IWebElement LastNameField = _wait.Until<IWebElement>(d => d.FindElement(By.Id("customer_lastname")));
@@ -192,7 +192,7 @@ namespace SeleniumLiveDemo
             IWebElement SignInButton = _driver.FindElement(By.CssSelector("#header > div.nav > div > div > nav > div.header_user_info > a"));
             SignInButton.Click();
             IWebElement EmailField = _driver.FindElement(By.CssSelector("#email_create"));
-            EmailField.SendKeys("martinazboeva@abv.bg");
+            EmailField.SendKeys("qa.registration@example.com");
             IWebElement CreateAccountButton = _driver.FindElement(By.XPath("/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button"));
             CreateAccountButton.Click();
             IWebElement FirstNameField = _wait.Until<IWebElement>(d => d.FindElement(By.Id("customer_firstname")));

@@ -13,7 +13,7 @@ namespace LiveDemoSeleniumAdvanced.Factories
             {
                 FirstName = "Marti",
                 LastName = "Bolen",
-                Email = "ma@abv.bg",
+                Email = "qa.practice@example.com",
                 PhoneNumber = "0896567896",
             };
     }
